@@ -737,7 +737,7 @@ Asteroid = function () {
 };
 Asteroid.prototype = new Sprite();
 
-Coin = function () {
+Coin = function ()  { 
   this.init("coin",
             [-5,  0,
               0,  5,
