@@ -454,7 +454,7 @@ Ship = function () {
     }
     if (KEY_STATUS.space) {
       if (this.delayBeforeBullet <= 0) {
-<<<<<<< HEAD
+
       this.delayBeforeBullet = 10;
         for (var i = 0; i < this.bullets.length; i++) {
           if (!this.bullets[i].visible) {
@@ -472,6 +472,7 @@ Ship = function () {
             break;
           }
         }
+
 =======
         this.delayBeforeBullet = 10;
         this.shoot();
