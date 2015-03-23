@@ -473,10 +473,10 @@ Ship = function () {
           }
         }
 
-=======
+
         this.delayBeforeBullet = 10;
         this.shoot();
->>>>>>> coins
+
       }
     }
 
